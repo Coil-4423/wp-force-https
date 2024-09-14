@@ -1,3 +1,13 @@
+# WP Force HTTPS
+
+## Introduction
+This repository provides a step-by-step guide on how to force HTTPS for a WordPress website. It includes configurations for `.htaccess`, `wp-config.php`, and other essential details for setting up SSL and enforcing secure connections.
+
+## Prerequisites
+- An SSL certificate installed (either via Let's Encrypt or a purchased one).
+- Access to your WordPress Admin dashboard.
+- Ability to edit server configuration files like `.htaccess` and `wp-config.php`.
+
 To **force your WordPress live site** to be accessible only over **HTTPS**, you need to follow a few steps to ensure that all traffic is redirected to the secure HTTPS version. Here's a step-by-step guide to implement this:
 
 ### Step 1: Install an SSL Certificate
